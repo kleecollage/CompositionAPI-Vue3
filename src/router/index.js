@@ -1,5 +1,6 @@
 import CounterView from '@/views/CounterView.vue'
 import CountriesView from '@/views/CountriesView.vue'
+import CountrieView from '@/views/CountrieView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -23,6 +24,12 @@ const routes = [
     path: '/countries',
     name: 'countries',
     component: CountriesView
+  },
+  {
+    path: '/countrie/:name',
+    name: 'countrie',
+    props: true,
+    component: CountrieView
   }
 ]
 
