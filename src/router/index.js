@@ -1,6 +1,7 @@
 import CounterView from '@/views/CounterView.vue'
 import CountriesView from '@/views/CountriesView.vue'
 import CountrieView from '@/views/CountrieView.vue'
+import PokeApiView from '@/views/PokeApiView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -30,6 +31,11 @@ const routes = [
     name: 'countrie',
     props: true,
     component: CountrieView
+  },
+  {
+    path: '/pokeapi',
+    name: 'pokeapi',
+    component: PokeApiView
   }
 ]
 

@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/counter">Counter</router-link> |
-    <router-link to="/countries">Countries</router-link>
+    <router-link to="/countries">Countries</router-link> |
+    <router-link to="/pokeapi">PokeApi</router-link>
   </nav>
   <router-view/>
 </template>
